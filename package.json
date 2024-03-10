@@ -1,6 +1,6 @@
 {
   "name": "supersimpltaskschedulerbyantoniuk",
-  "version": "9.1.4",
+  "version": "9.1.5",
   "description": "A lightweight Node.js package for scheduling tasks at specific intervals.",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
